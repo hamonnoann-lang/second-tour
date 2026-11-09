@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Second Tour – Vos clients satisfaits reviennent enfin</title>
+<meta name="description" content="Un client satisfait ne revient pas parce qu’il oublie. Second Tour le rappelle pour vous, avec une offre de retour. 9 € par mois, sans engagement.">
+<meta name="theme-color" content="#14304A">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Second Tour – Vos clients satisfaits reviennent enfin">
+<meta property="og:description" content="Le rappel automatique qui fait revenir les clients de votre garage ou carrosserie. 9 € par mois, sans engagement.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bleu:#14304A;--orange:#F26B21;--papier:#FAF6EF;--encre:#1B1B1B;--gris:#5E6670;--trait:#D9D2C3}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--papier);color:var(--encre);font:400 18px/1.55 "Source Sans 3",system-ui,sans-serif;padding-bottom:84px}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;color:var(--bleu);line-height:1.1;margin:0}
+h1{font-size:clamp(2.1rem,8vw,3.4rem);font-weight:800;letter-spacing:-.02em}
+h2{font-size:clamp(1.6rem,5.5vw,2.2rem);font-weight:800}
+h3{font-size:1.2rem}
+p{margin:0}
+.wrap{max-width:640px;margin:0 auto;padding:0 20px}
+section{padding:44px 0}
+.nom{font:800 1.15rem "Bricolage Grotesque",sans-serif;color:var(--bleu);padding:18px 0}
+.lead{margin-top:16px;font-size:1.15rem;max-width:34ch}
+.cta{display:flex;align-items:center;justify-content:center;min-height:56px;padding:14px 22px;background:var(--orange);color:#fff;font:700 1.1rem "Bricolage Grotesque",sans-serif;text-decoration:none;border-radius:10px;text-align:center}
+.cta:hover{background:#D95A14}
+.cta:focus-visible,a:focus-visible{outline:3px solid var(--bleu);outline-offset:3px}
+.hero .cta{margin-top:26px}
+.note{margin-top:10px;font-size:.95rem;color:var(--gris)}
+.carnet{margin-top:32px;background:#fff;border:2px solid var(--bleu);border-radius:6px;padding:6px 16px 10px;position:relative}
+.carnet h3{font-size:.95rem;font-weight:700;padding:10px 0 6px;border-bottom:2px solid var(--bleu)}
+.ligne{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:10px 0;border-bottom:1px dashed var(--trait);font-size:.98rem}
+.ligne:last-child{border-bottom:0}
+.ligne b{font-weight:600}
+.ligne span{color:var(--gris)}
+.tampon{align-self:center;grid-row:1 / span 2;grid-column:2;border:2px solid var(--orange);color:var(--orange);font:800 .85rem "Bricolage Grotesque",sans-serif;padding:3px 8px;border-radius:4px;transform:rotate(-4deg)}
+.exemple{background:var(--bleu);color:#fff}
+.exemple h2{color:#fff}
+.exemple p{margin-top:14px}
+.exemple small{display:block;margin-top:14px;opacity:.8;font-size:.9rem}
+.benef{display:grid;gap:22px;margin-top:22px}
+.benef div{border-left:4px solid var(--orange);padding-left:14px}
+.benef p{margin-top:4px;color:var(--gris)}
+.offre{background:#fff;border:2px solid var(--bleu);border-radius:10px;padding:24px 20px;margin-top:20px}
+.prix{font:800 3rem "Bricolage Grotesque",sans-serif;color:var(--bleu);line-height:1}
+.prix span{font-size:1.1rem;font-weight:700}
+.jour{margin-top:4px;color:var(--gris)}
+.offre ul{margin:18px 0;padding-left:20px}
+.offre li{margin:6px 0}
+.garantie{margin-top:18px;padding:14px;background:var(--papier);border:1px dashed var(--bleu);border-radius:8px;font-size:1rem}
+.offre .cta{margin-top:18px}
+footer{padding:28px 0 40px;font-size:.92rem;color:var(--gris);border-top:1px solid var(--trait)}
+footer a{color:var(--bleu);margin-right:14px}
+.barre{position:fixed;left:0;right:0;bottom:0;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:var(--papier);border-top:1px solid var(--trait)}
+.barre .cta{min-height:52px;max-width:608px;margin:0 auto}
+@media (min-width:700px){.barre{display:none}body{padding-bottom:0}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="wrap"><div class="nom">Second Tour</div></header>
+
+<main>
+<section class="hero wrap" style="padding-top:12px">
+  <h1>Vos clients satisfaits oublient de revenir. Second Tour les rappelle pour vous.</h1>
+  <p class="lead">Après chaque passage, un rappel part tout seul au bon moment, avec une offre de retour. Vous ne tenez aucun fichier.</p>
+  <a class="cta" href="#offre" data-pay>Réserver mon accès à 9 €/mois</a>
+  <p class="note">Sans engagement, résiliable à tout moment. Remboursé sous 30 jours.</p>
+
+  <div class="carnet" aria-label="Exemple de carnet de rappels">
+    <h3>Carnet de rappels, exemple</h3>
+    <div class="ligne"><b>Vidange, M. Durand</b><span>Rappel envoyé après 11 mois</span></div>
+    <div class="ligne"><div><b>Pneus, Mme Lopez</b><br><span>Offre utilisée</span></div><div class="tampon">REVENU</div></div>
+    <div class="ligne"><b>Carrosserie, M. Petit</b><span>Rappel prévu dans 3 semaines</span></div>
+  </div>
+</section>
+
+<section class="exemple">
+  <div class="wrap">
+    <h2>Un seul client qui revient paie votre année.</h2>
+    <p>À 150 € le passage, un client de retour rapporte 150 €. Second Tour coûte 9 € par mois, soit 108 € par an.</p>
+    <small>Exemple chiffré à adapter à votre panier moyen. Aucune promesse de résultat.</small>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Ce que ça change pour vous</h2>
+  <div class="benef">
+    <div><h3>Vous ne relancez plus à la main</h3><p>Le rappel part automatiquement après le délai naturel de la prestation.</p></div>
+    <div><h3>Le client a une raison de revenir</h3><p>Une offre simple, utilisable une seule fois.</p></div>
+    <div><h3>Vous voyez ce que ça rapporte</h3><p>Un compteur : clients revenus et chiffre généré par les rappels.</p></div>
+  </div>
+</section>
+
+<section class="wrap" id="offre">
+  <h2>L’offre de lancement</h2>
+  <div class="offre">
+    <div class="prix">9 €<span> par mois</span></div>
+    <p class="jour">Soit 0,30 € par jour</p>
+    <ul>
+      <li>Rappels automatiques à vos clients</li>
+      <li>Offre de retour à usage unique</li>
+      <li>Compteur de clients revenus</li>
+    </ul>
+    <p class="garantie"><b>Satisfait ou remboursé, 30 jours.</b> Pour être remboursé, écrivez à <b>[VOTRE EMAIL]</b>. Remboursement sous 5 jours ouvrés, sans justification.</p>
+    <p class="garantie" style="margin-top:10px"><b>Prévente :</b> votre accès vous est envoyé par email sous 14 jours maximum. S’il n’est pas ouvert à cette date, vous êtes remboursé intégralement.</p>
+    <a class="cta" href="#" data-pay>Réserver mon accès à 9 €/mois</a>
+    <p class="note" style="text-align:center">Sans engagement, résiliable à tout moment. Paiement sécurisé par Stripe.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="/mentions-legales.html">Mentions légales</a><a href="/cgv.html">CGV</a><a href="/confidentialite.html">Confidentialité</a></p>
+    <p style="margin-top:10px">Second Tour, [RAISON SOCIALE], SIRET [SIRET], [ADRESSE]</p>
+  </div>
+</footer>
+
+<div class="barre"><a class="cta" href="#" data-pay>Réserver mon accès à 9 €/mois</a></div>
+
+<script>
+// Collez ici le lien de paiement Stripe (étape suivante)
+var LIEN_PAIEMENT = "";
+if (LIEN_PAIEMENT) document.querySelectorAll("[data-pay]").forEach(function(a){a.href = LIEN_PAIEMENT;});
+</script>
+</body>
+</html>
